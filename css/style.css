@@ -1,0 +1,117 @@
+/*---------------------------------------- BODY---------------------------------------------------*/
+/* A margin 0 auto pra deixar centralizado, com uma cor de fundo e fonte definada como padrão do site.
+nessa folha de estilo tem algums valores definos como padrão para todas as páginas, como o Body, header, nav e footer. Apenas no main alguns valores estão como padrão e outras foram estilizadas e outros arquivos de CSS. */
+body{
+    margin: 0 auto;
+    background: rgb(232, 245, 162);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+/* uma div com a atributo 'class' valor container, trabalhando com grid para definir colunas. */
+.container{
+    display: grid;
+}
+/*---------------------------------------- HEADER---------------------------------------------------*/
+/* header ocupando todas as colunas do grid, com cor definida, altura, margin e padding. */
+header{
+    background: black;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    height: 50px;
+    margin: 0;
+    padding: 10px;
+}
+/*---------------------------------------- LOGO ---------------------------------------------------*/
+/* Á logo é um link que da acesso a página principal. Estilizando a tag <a> tirando seus valores definido e colocando novos valores*/
+.logo{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+.logo a{
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: rgb(16, 16, 16);
+    text-align: center;
+    margin: 0 auto;
+    padding: 5px 5px;
+}
+/*-------------------------------------- NAV -----------------------------------------------------*/
+/* A nav também com suas colunas definas, e listas não ordenada para criar o menu com um ':hover' para que quando se passe o cursor do mouse em cima, mude de cor. */
+nav{
+    background: rgb(0, 0, 0);
+    grid-column-start: 1;
+    grid-column-end: 4;
+    height: 40px;
+}
+
+li:hover{
+    background:  rgb(180, 201, 240);
+;   
+}
+ul{
+    padding: 0px 5px 0 5px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 10px ;
+    gap: 15px;
+}
+li{
+    background: rgb(64, 64, 240);
+    color: white;
+    border-radius: 2px ;
+
+}
+/*------------------------------------- MAIN ------------------------------------------------------*/
+/* Esse main está como padrão para todas as páginas do site. Em outros páginas cada um terá seus main próprio com alguns valores daqui.
+   coluna defina, usando 'display flex' para poder alinhar minha div, e assim ficar uma ao lado da outra, aqui tive algumas dificuldades para alinhar as section.*/
+.mainsobre{
+    background: white;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    height: 398px;
+}
+.mainsobre section p{
+    font-size: 15px;
+}
+h3{
+    text-align: center;
+}
+section p{
+    padding-left: 5px;   
+}
+.div1{
+    display: flex;
+    padding-left: 50px;
+    margin: 0 150px;
+}
+section{
+    display:block;
+    padding: 5px 0;
+    border: 2px solid black;
+    border-radius: 25px;
+    background: rgb(220, 210, 149);
+    width: 400px;
+    margin: 5px;
+}
+/*--------------------------------------- FOOTER ----------------------------------------------------*/
+/* footer está com padrão para todas as páginas, também usando flex. e com uma fonte própria */
+footer{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    height: 51px;
+}
+footer p{
+    color: white;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 13px 15px;
+    padding: 5px;
+}/*

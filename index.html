@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css"><!-- todas as páginas teram dois links de CSS, cada um tem sua folha de estilo, e um arquivo css geral para todas. -->
+    <link rel="stylesheet" href="../css/styleindex.css">
+    <title>Home</title>
+</head>
+<body>
+    <div class="container">
+        <header><!-- Começamos com cabelho, dentro está a logo do site -->
+            <div class="logo">
+                <a href="index.html"><strong>HENRIQUE</strong><br>   Moreira</a>
+            </div>
+        </header>
+        <nav class="menu"> <!-- Um menu, com atributo 'tagert' com valor 'blank' para abrir em outra página, apenas no arquivo index que deixei com esse atributo.-->
+            <ul>
+                <li><a href="sobre.html" target="_blank">Sobre Mim</a></li>
+                <li><a href="formaçaoeducacional.html" target="_blank">Formação Educacional</a></li>
+                <li><a href="meuportifolio.html" target="_blank">Meu Portifólio</a></li>
+                <li><a href="contato.html" target="_blank">contato</a></li>
+            </ul>
+        </nav>
+        <main class="mainindex"> <!-- Aqui está o conteúdo do site, no index fiz um resumo sobre as aulas, por ser o inicio do site, nos links do menu terá as informações sobre mim, pedidas no trabalho. fiz alguns estilos direto nas tags, para melhorar a estilização -->
+            <hr>
+                <h1 style="text-align: center; margin: 10px 10px; text-decoration: underline;">Bem vindo </h1><hr>
+                <article>
+                    <section>
+                        <p style="text-indent: 10px" > Site desenvolvido para apresentar o que aprendi no decorrer das aulas.</p> 
+                    </section>
+                    <section>    
+                        <p style="text-indent: 10px"> Nos links acima temos um menu aonde você podera acessar informações sobre mim. </p>
+                    </section>
+                    <section>
+                        <p style="text-indent: 10px"> Logo à baixo, veremos algumas imagens sobre assuntos abordados nas video aulas. </p>
+                    </section>
+                </article><br><br><br><br>
+                <hr><br>
+                <div><!-- Nas imagens estilizei nas tags, colocando um atributo 'ALT' caso a imagem não carregue por algum motivo ela mostrará á frase sobre o que se trata. -->
+                    <img style="width: 200px; height: 200px; float: left; display: block; padding-left: 20px; margin: 70px auto;"  src="../img/html.png" alt="Uma imagem da logo, do html.">
+                    <div class="imghtml">
+                        <p style="text-align: center; text-decoration: underline;"><Strong>HTML</Strong></p><br><p style="padding-left: 250px; text-indent: 10px;">O HTML, ou Linguagem de Marcação de Hipertexto, é uma linguagem de desenvolvimento web que tem várias características, entre elas:
+                            Tags
+                            São marcadores que indicam a função de cada elemento na página, como títulos, parágrafos, imagens e links. As tags podem ser organizadas em uma estrutura hierárquica, permitindo a criação de seções e subseções.
+                            Estruturação
+                            O HTML é responsável por mostrar ao navegador como um conteúdo deve estar estruturado. Por exemplo, o conteúdo pode ser estruturado em parágrafos, em uma lista com marcadores ou usando imagens e tabelas.
+                            Hiperligações
+                            O elemento <a> em HTML, com o atributo href, cria-se um hiperligação nas páginas web.
+                            Metadados
+                            O HTML cuida dos metadados para outras ferramentas.
+                            Tipos de tags
+                            As tags podem ser categorizadas em dois tipos: em “nível de bloco” (block-level) e “em linha” (inline). 
+                            O HTML é o bloco de construção mais básico da web e define o significado e a estrutura do conteúdo da web. Outras tecnologias, como o CSS e o JavaScript, são usadas para descrever a aparência e a funcionalidade de uma página da web, respectivamente <br><a href="https://pt.wikipedia.org/wiki/HTML" target="_blank" rel="noopener noreferrer" style="text-decoration: underline; color: blue;">Clique aqui para saber mais</a></p><br><br><!--Coloquei um link de um outro site para mais detalhes sobre o assunto. -->
+                    </div><br><br><br>
+
+
+                    <img style="width: 200px; height: 200px; float: right; display: block; padding-right:20px;  margin: 65px auto; "  src="../img/css.jfif" alt="uma imagem da logo, do css.">
+                    <div class="imgcss">
+                        <p style="text-align: center; text-decoration: underline;"><strong>CSS</strong></p><br>
+                        <p style="text-indent: 10px;">O CSS, ou Cascading Style Sheets, é uma linguagem de estilização de páginas web que possui várias características, entre elas:
+                            Separação entre conteúdo e apresentação
+                            O CSS permite separar o conteúdo HTML da apresentação visual da página, facilitando a manutenção e atualização do site.
+                            Personalização
+                            Com o CSS, é possível ter vários estilos em uma página HTML, tornando as possibilidades de personalização quase infinitas.
+                            Economiza tempo e código
+                            O CSS permite estilizar tudo em um arquivo diferente, criando assim o estilo separadamente.
+                            Ajusta para diferentes telas
+                            O CSS permite ajustar o site a diferentes telas de dispositivos, exibindo corretamente o conteúdo.
+                            Adiciona efeitos
+                            É possível adicionar efeitos como sombras, bordas arredondadas e animações.
+                            Altera a aparência de elementos
+                            O CSS permite alterar a aparência de elementos na página, como cores, tamanhos, fontes e posição.<br> <a href="https://pt.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank" rel="noopener noreferrer" style="text-decoration: underline; color: blue;">Clique aqui para saber mais</a></p><br><br>
+                    </div><br><br><br>
+
+
+
+                    <img style="width: 200px; height: 200px; float: left; display: block; padding-left:20px;  margin: 50px auto; " src="../img/javascript.webp" alt="uma imagem da logo, do javascript">
+                    <div class="imgjavascript">
+                        <p style="text-align: center; text-decoration: underline;"><strong>JAVASCRIPT</strong></p><br>
+                        <p  style="padding-left: 250px; text-indent: 10px;">JavaScript é uma linguagem de programação que permite a você implementar itens complexos em páginas web, toda vez que uma página da web faz mais do que simplesmente mostrar a você informação estática mostrando conteúdo que se atualiza em um intervalo de tempo, mapas interativos ou gráficos 2D/3D animados, etc. O JavaScript é uma linguagem de programação com várias características, incluindo:Alto nível. Os códigos em JavaScript são mais próximos da linguagem humana, o que facilita a interpretação. Tem suporte universal a maioria dos navegadores modernos, como Firefox, Chrome, Edge e Safari, sem a necessidade de instalar plug-ins. O JavaScript é a linguagem mais utilizada para programação de aplicações web.<br> <a href="https://pt.wikipedia.org/wiki/JavaScript" target="_blank" rel="noopener noreferrer" style="text-decoration: underline; color: blue;">Clique aqui para saber mais</a></p><br><br>
+                    </div><br><br><br>
+
+
+                </div>
+        </main>
+        <footer> <!--Meu footer, com iformação sobre quem fez -->
+            <p><strong>Site desenvolvido por - Henrique Moreira Candido</strong></p>
+            <p><strong> RU:3762191</strong></p>
+        </footer>
+    </div>
+</body>
+</html>

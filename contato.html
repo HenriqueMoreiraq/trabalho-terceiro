@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/stylecontato.css">
+    <script type="text/javascript" src="../js/arquivo.js"></script><!-- Aqui uma arquivo de javascript, ainda estou estudando sobre o assunto. Um comando de 'alert' pra quando clicar no botão ENVIAR aparecerá uma mensagem dizendo que os dados foi enviado. -->
+    <title>Contato</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <a href="index.html"><strong>HENRIQUE</strong><br>   Moreira</a>
+            </div>
+        </header>
+        <nav class="menu">
+            <ul>
+                <li><a href="sobre.html">Sobre Mim</a></li>
+                <li><a href="formaçaoeducacional.html">Formação Educacional</a></li>
+                <li><a href="meuportifolio.html">Meu Portifólio</a></li>
+                <li><a href="contato.html">contato</a></li>
+            </ul>
+        </nav>
+        <main class="main_contato"><!-- Aqui temos um formulário com as tag 'form' com input pra receber os dados enceridos e o label com alguns atributos obrigatorio -->
+            <hr>
+            <h1 style="text-align: right; margin: 10px 10px; padding-right:20px ; text-decoration: underline;">Contato</h1>
+            <hr>
+            <div>
+                <form name="meu_form">
+
+                    <h2 style="text-align: center;">Entre em contato</h2>
+
+
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nomeid" placeholder="seu nome" required="required" name="nome" /><br>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="emailid" placeholder="exemplo@mail.com" name="email" />
+                    
+                
+                    <textarea placeholder="Deixe sua opnião"></textarea>
+                    
+                    <button type="submit" onclick="Enviar();" value="Enviar" >Enviar</button>
+                
+                </form>
+            </div>
+        </main>
+        <footer>
+            <p><strong>Site desenvolvido por - Henrique Moreira Candido</strong></p>
+            <p><strong> RU:3762191</strong></p>
+        </footer>
+
+    </div>
+</body>
+</html>

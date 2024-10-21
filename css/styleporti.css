@@ -1,0 +1,26 @@
+/*------------------------------------- MAIN ------------------------------------------------------*/
+.main_portifolio{
+    background: white;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.minha_foto{
+    border: 2px solid black;
+    margin-left: 150px;
+    margin-top: 80px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.lado_foto{
+    display:inline-block;
+    padding-left: 15px;
+    border: 2px solid rgb(112, 103, 103);
+    border-radius: 25px;
+    background: rgba(253, 223, 2, 0.096);
+    width: 400px;
+    margin-left: 100px;
+}
+.fotos, p{
+    text-align: center;
+}

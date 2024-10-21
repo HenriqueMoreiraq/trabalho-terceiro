@@ -1,0 +1,39 @@
+/*------------------------------------- MAIN ------------------------------------------------------*/
+.mainindex{
+    background: white;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+article section p{
+    padding-left: 5px;   
+}
+article{
+    margin-top: 50px;
+    width: 100%;
+}
+article section{
+    display: inline-block;
+}
+.mainindex p{
+    font-size: 15px;
+}
+.mainindex article p{
+    font-size: 18px;
+}
+.imghtml{
+    padding-left: 100px;
+
+    background: rgb(254, 122, 40);
+    border: 1px solid black;
+}
+.imgcss{
+    padding-left: 100px;
+    background: rgb(40, 161, 254);
+    border: 1px solid black;
+
+}
+.imgjavascript{
+    padding-left: 100px;
+    background: rgb(251, 244, 57);
+    border: 1px solid black;
+}
